@@ -1,0 +1,6 @@
+__default__:
+    partition: "general"
+    time: 10000
+    nodes: 1
+    mem: 10000
+    output: "logs/slurm/slurm-%j.out"
