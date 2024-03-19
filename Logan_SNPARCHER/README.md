@@ -1,9 +1,9 @@
 # Running snpArcher on Terrapin Data Set 
-## From snparcher docs
+### From snparcher docs
 1. `mamba create -c conda-forge -c bioconda -n snparcher "snakemake==7.32.4" "python==3.11.4"`
 2. `mamba activate snparcher` 
 3. `cd` to location you want to clone to and `git clone https://github.com/harvardinformatics/snpArcher.git`
-## The following replacements set configurations for running snparcher on the terrapin data located in `/scratch/lgh0053`
+### The following replacements set configurations for running snparcher on the terrapin data located in `/scratch/lgh0053`
 4. Replace `snparcher/config` directory with `VariantCallingWorking/Logan_SNPARCHER/config` directory (use `cp`)
 5. Replace `snparcher/profiles/slurm/config.yaml` with `VariantCallingWorking/Logan_SNPARCHER/config.yaml`
 6. Replace `snparcher/profiles/slurm/cluster_config.yml` with `VariantCallingWorking/Logan_SNPARCHER/cluster_config.yml`
@@ -11,7 +11,7 @@
 8. Use `screen` to open new terminal session that won't time out
 9. `./run_pipeline.sh`
 
-## Screen commands
+### Screen commands
 * `screen` opens new session
 * control A + D exits sessions (but keeps it open)
 * `screen -ls` lists open sessions
