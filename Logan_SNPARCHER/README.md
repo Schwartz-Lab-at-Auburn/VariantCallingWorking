@@ -6,7 +6,7 @@
 ## The following replacements set configurations for running snparcher on the terrapin data located in `/scratch/lgh0053`
 4. Replace `snparcher/config` directory with `VariantCallingWorking/Logan_SNPARCHER/config` directory (use `cp`)
 5. Replace `snparcher/profiles/slurm/config.yaml` with `VariantCallingWorking/Logan_SNPARCHER/config.yaml`
-6. Replace `snparcher/profiles/slurm/clusterconfig.yml` with `VariantCallingWorking/Logan_SNPARCHER/config.yml`
+6. Replace `snparcher/profiles/slurm/cluster_config.yml` with `VariantCallingWorking/Logan_SNPARCHER/cluster_config.yml`
 7. Replace `snparcher/run_pipeline.sh` with `VariantCallingWorking/Logan_SNPARCHER/run_pipeline.sh` and make executable
 8. Use `screen` to open new terminal session that won't time out
 9. `./run_pipeline.sh`
