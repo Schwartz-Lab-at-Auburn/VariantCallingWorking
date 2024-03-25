@@ -14,7 +14,7 @@ CONFIG="/home/$MyID/Terrapin_Project/VCF_generation/analysis/snparcher/config_ta
 
 
 # Set path for reference local ref genome. Note: for this terrapin dataset, there are two reference files that downloaded from NCBI. The only difference is in the fasta headers.
-RefPath="/home/$MyID/Terrapin_Project/VCF_generation/data/reference/ncbi_dataset/data/GCF_027887155.1/GCF_027887155.1_rMalTer1.hap1_genomic.fna"
+RefPath=""
 
 # Ref genome accession from NCBI. By default, snparcher uses the accession to download the reference, but I've had better results downloading locally. For the terrapin data, you should be able to read and execute in my reference directory (given above).
 RefAcc=""    ex:SAMN31394215                                                                  
